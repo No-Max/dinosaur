@@ -6,7 +6,7 @@ $(document).on('ready', function() {
     slidesToShow: 1,
     adaptiveHeight: true,
     arrows:false,
-    autoplay:false
+    autoplay:true
   });
   $(".button1").hover(function(){
     $(".button1").html('<img src="img/right.png">');
