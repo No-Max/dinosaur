@@ -87,6 +87,6 @@ function isValidEmailAddress(emailAddress) {
   return pattern.test(emailAddress);
 };
 
-
+  $('body').fadeIn();
 });
 
