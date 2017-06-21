@@ -8,22 +8,6 @@ $(document).on('ready', function() {
     arrows:false,
     autoplay:true
   });
-  $(".button1").hover(function(){
-    $(".button1").html('<img src="img/right.png">');
-  },function(){
-    $(".button1").html('Узнать больше');
-  });
-  $(".button2").hover(function(){
-    $(".button2").html('<img src="img/glob.png">');
-  },function(){
-    $(".button2").html('Заказать');
-  });
-  $(".button3").hover(function(){
-    $(".button3").html('<img src="img/glob-white.png">');
-  },function(){
-    $(".button3").html('Заказать');
-  });
-
   $(".lang-list").hide();
   var b = true;
 
